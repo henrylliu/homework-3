@@ -1,11 +1,13 @@
 def histogram(points, bins):
     """
     Returns a python list which contains the density within each bin of the histogram
+    
     Input:
         - points (list): Sorted python list of numbers from smallest to largest
         - bins (list): List of k tuples where we are given [start, end)
+
     Return:
-        - densities (list): List of 
+        - densities (list): List of bin densities
     """
     n = len(points)
     k = len(bins)
