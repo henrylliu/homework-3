@@ -26,7 +26,6 @@ def histogram(points, bins):
             densities[bin] += 1
             point += 1
             total += 1
-    print(total)
     for i in range(k):
         start, stop = bins[i]
         densities[i] /= (total * (stop - start))
